@@ -1,0 +1,36 @@
+2024-11-28 00:11:22,010 INFO [module cache] [ExecutionProcessor] Adding Execution to Order cache with ExecID: 20241128500028
+2024-11-28 00:11:22,020 DEBUG [module cache] [OrderCache] Bank Side Execution ExecID: 20241128500028|LinkID: 20241128500028|OrdType: 48|Symbol: "GOOG"|ExecTime: "2025-11-28T00:11:22"|Side: 1|Price: 123.456789|FwdPts: 0.01335|Rate: 100.71335|
+2024-11-28 00:11:22,030 DEBUG [module cache] [OrderCache] Client Side Execution ExecID: 20241128500029|LinkID: 20241128500028|OrdType: 48|Symbol: "GOOG"|ExecTime: "2025-11-28T00:11:22"|Side: 2|Price: 123.456789|FwdPts: 0.01335|Rate: 100.71335|
+2024-11-28 00:11:22,040 DEBUG [module cache] [OrderCache] Started tracking Bank side exec ExecID: 20241128500028 with entryTime=20251128-00:11:22.001
+2024-11-28 00:11:22,050 INFO [module middleware REPLY] [Execution FIX Converter] Deal Booking FIX ExecReport Inbounce::8=FIX.4.4;55="GOOG";60="2025-11-28T00:11:22";28=20241128500028;44=11.71335
+2024-11-28 00:11:22,060 DEBUG [module miffleware REPLY] [Order FIX Converter] Deal Booking Response for Bank side exec 20241128500028
+2024-11-28 00:11:22,070 DEBUG [module middleware REPLY] [OrderCache update] generating notification event for ExecID 20241128500028
+2024-11-28 00:11:22,080 INFO [module middleware REPLY] [OrderCache update] updating cache with ExecID 20241128500028
+2024-11-28 00:11:22,090 INFO [module Notification] [Notification Processor] FTQ flow - prepaiting for Notification - received Execution Message ExecID: 20241128500029|LinkID: 20241128500028|OrdType: 48|Symbol: "GOOG"|ExecTime: "2025-11-28T00:11:22"|Side: 2|Price:
+2024-11-28 00:11:22,100 DEBUG [module Notification] [Notification Processor] Setting ExecType to FTQ for ExecutionId 20241128500029
+2024-11-28 00:11:22,110 DEBUG [module Notification] [Notification MessageBuilder] Set the Price to display as 100.7 for OrderID=20241128500025
+2024-11-28 00:11:22,120 DEBUG [module Notification] [Notification sender] Sending notification message
+2024-11-28 00:11:22,011 INFO [module cache] [ExecutionProcessor] Adding Execution to Order cache with ExecID: 20241128600028
+2024-11-28 00:11:22,021 DEBUG [module cache] [OrderCache] Bank Side Execution ExecID: 20241128600028|LinkID: 20241128600028|OrdType: 48|Symbol: "GOOG"|ExecTime: "2025-11-28T00:11:22"|Side: 1|Price: 123.456789|FwdPts: 0.01335|Rate: 100.71335|
+2024-11-28 00:11:22,031 DEBUG [module cache] [OrderCache] Client Side Execution ExecID: 20241128600029|LinkID: 20241128600028|OrdType: 48|Symbol: "GOOG"|ExecTime: "2025-11-28T00:11:22"|Side: 2|Price: 123.456789|FwdPts: 0.01335|Rate: 100.71335|
+2024-11-28 00:11:22,041 DEBUG [module cache] [OrderCache] Started tracking Bank side exec ExecID: 20241128600028 with entryTime=20251128-00:11:22.001
+2024-11-28 00:11:22,051 INFO [module middleware REPLY] [Execution FIX Converter] Deal Booking FIX ExecReport Inbounce::8=FIX.4.4;55="GOOG";60="2025-11-28T00:11:22";28=20241128600028;44=11.71335
+2024-11-28 00:11:22,061 DEBUG [module miffleware REPLY] [Order FIX Converter] Deal Booking Response for Bank side exec 20241128600028
+2024-11-28 00:11:22,071 DEBUG [module middleware REPLY] [OrderCache update] generating notification event for ExecID 20241128600028
+2024-11-28 00:11:22,081 INFO [module middleware REPLY] [OrderCache update] updating cache with ExecID 20241128600028
+2024-11-28 00:11:22,091 INFO [module Notification] [Notification Processor] FTQ flow - prepaiting for Notification - received Execution Message ExecID: 20241128600029|LinkID: 20241128600028|OrdType: 48|Symbol: "GOOG"|ExecTime: "2025-11-28T00:11:22"|Side: 2|Price:
+2024-11-28 00:11:22,101 DEBUG [module Notification] [Notification Processor] Setting ExecType to FTQ for ExecutionId 20241128600029
+2024-11-28 00:11:22,111 DEBUG [module Notification] [Notification MessageBuilder] Set the Price to display as 100.7 for OrderID=20241128500025
+2024-11-28 00:11:22,121 DEBUG [module Notification] Exception when sending notification
+2024-11-28 00:11:22,012 INFO [module cache] [ExecutionProcessor] Adding Execution to Order cache with ExecID: 20241128700028
+2024-11-28 00:11:22,022 DEBUG [module cache] [OrderCache] Bank Side Execution ExecID: 20241128700028|LinkID: 20241128700028|OrdType: 48|Symbol: "GOOG"|ExecTime: "2025-11-28T00:11:22"|Side: 1|Price: 123.456789|FwdPts: 0.01335|Rate: 100.71335|
+2024-11-28 00:11:22,032 DEBUG [module cache] [OrderCache] Client Side Execution ExecID: 20241128700029|LinkID: 20241128700028|OrdType: 48|Symbol: "GOOG"|ExecTime: "2025-11-28T00:11:22"|Side: 2|Price: 123.456789|FwdPts: 0.01335|Rate: 100.71335|
+2024-11-28 00:11:22,042 DEBUG [module cache] [OrderCache] Started tracking Bank side exec ExecID: 20241128700028 with entryTime=20251128-00:11:22.001
+2024-11-28 00:11:22,052 INFO [module middleware REPLY] [Execution FIX Converter] Deal Booking FIX ExecReport Inbounce::8=FIX.4.4;55="GOOG";60="2025-11-28T00:11:22";28=20241128700028;44=11.71335
+2024-11-28 00:11:22,062 DEBUG [module miffleware REPLY] [Order FIX Converter] Deal Booking Response for Bank side exec 20241128700028
+2024-11-28 00:11:22,072 DEBUG [module middleware REPLY] [OrderCache update] generating notification event for ExecID 20241128700028
+2024-11-28 00:11:22,082 INFO [module middleware REPLY] [OrderCache update] updating cache with ExecID 20241128700028
+2024-11-28 00:11:22,092 INFO [module Notification] [Notification Processor] FTQ flow - prepaiting for Notification - received Execution Message ExecID: 20241128700029|LinkID: 20241128700028|OrdType: 48|Symbol: "GOOG"|ExecTime: "2025-11-28T00:11:22"|Side: 2|Price:
+2024-11-28 00:11:22,102 DEBUG [module Notification] [Notification Processor] Setting ExecType to FTQ for ExecutionId 20241128700029
+2024-11-28 00:11:22,112 DEBUG [module Notification] [Notification MessageBuilder] Set the Price to display as 100.7 for OrderID=20241128500025
+2024-11-28 00:11:22,122 DEBUG [module Notification] [Notification sender] Sending notification message

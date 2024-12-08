@@ -1,0 +1,12 @@
+Adding Execution to Order cache with ExecID: <*>
+Bank Side Execution ExecID: <*>|LinkID: <*>|OrdType: <*>|Symbol: <*>|ExecTime: <*>|Side: <*>|Price: <*>|FwdPts: <*>|Rate: <*>|
+Client Side Execution ExecID: <*>|LinkID: <*>|OrdType: <*>|Symbol: <*>|ExecTime: <*>|Side: <*>|Price: <*>|FwdPts: <*>|Rate: <*>|
+Started tracking Bank side exec ExecID: <*> with entryTime='*'
+Deal Booking FIX ExecReport Inbounce::8=FIX.4.4;55=<*>;60=<*>;28=<*>;44=<*>
+Deal Booking Response for Bank side exec <*>
+generating notification event for ExecID <*>
+updating cache with ExecID <*>
+FTQ flow - prepaiting for Notification - received Execution Message ExecID: <*>|LinkID: <*>|OrdType: <*>|Symbol: <*>|ExecTime: <*>|Side: <*>|Price:
+Setting ExecType to FTQ for ExecutionId <*>
+Set the Price to display as <*> for OrderID=<*>
+Sending notification message
